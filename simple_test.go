@@ -12,3 +12,10 @@ func TestAdd_Zero(t *testing.T) {
 	actual := Add(0, 0)
 	assert.Equal(t, expected, actual)
 }
+
+func TestAdd_Svn(t *testing.T) {
+	expected := 7
+
+	actual := Add(3, 4)
+	assert.Equal(t, expected, actual)
+}
